@@ -11,10 +11,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  `style bindings using [ngStyle]`
  `class bindings using [ngClass]`
  `services`
- 
+
  This app uses an open Api ` 'https://api.punkapi.com/v2/beers?brewed_before=11-2012&abv_gt=6' ` to get brews.
 
-
+![App Screenshot](/app_screenshot.png)
 ## Install Dependencies
 
 Run `npm install`  
