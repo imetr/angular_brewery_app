@@ -1,0 +1,39 @@
+.example-card {
+    max-width: 400px;
+    background-color: "#c1c5c7";
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .beerImage {
+      max-height: 180px;
+      display: block;
+      margin: auto;
+  }
+  .mat-card-header {
+    margin-bottom: auto;
+  }
+  .md-card-actions{
+    margin-top:auto;
+  }
+  .avatarImage:hover{
+    transform: scale(3);
+    position: absolute;
+    z-index: 1;
+  }
+  .contentCard {
+      margin-top: auto;
+  }
+  .mat-expansion-panel {
+    background-color: #c1c5c7;
+  }
+  .mat-expansion-panel-header {
+    background-color: #c1c5c7;
+    border: 1px solid white;
+  }
+  

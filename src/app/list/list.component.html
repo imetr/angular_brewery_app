@@ -1,0 +1,58 @@
+<h1> Breweries</h1>
+
+<span *ngIf="brews" class="mainContent">
+    <span *ngFor="let beer of brews" class="cardSpan">
+        <app-card-fancy [beer] = "beer"></app-card-fancy>
+    </span>
+</span>
+
+
+
+
+<!-- <ul *ngIf="brews">
+    <li *ngFor="let brew of brews">
+        <p class="name"> {{brew.name}}</p>
+        <p class="abv"> abv. : {{brew.abv}}</p>
+        <p class="description">About: {{brew.description}}</p>
+        <a  href  = "{{ brew.image_url}}" class="site" target="_blank"> Site</a>
+        <app-card-fancy [beer]="brew"></app-card-fancy>
+    </li>
+</ul> -->
+
+
+
+
+
+
+
+
+<!-- <ul *ngIf="brews">
+    <li *ngFor="let brew of brews">
+        <p class="name"> {{brew.name}}</p>
+        <p class="abv"> abv. : {{brew.abv}}</p>
+        <p class="description">About: {{brew.description}}</p>
+        <a  href  = "{{ brew.image_url}}" class="site" target="_blank"> Site</a>
+        <app-card-fancy [beer]="brew"></app-card-fancy>
+    </li>
+</ul> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1> Breweries</h1>
+
+<ul *ngIf="brews">
+    <li *ngFor="let brew of brews">
+        <p class="name"> {{brew.name}}</p>
+        <p class="abv"> abv. : {{brew.abv}}</p>
+        <p class="description">About: {{brew.description}}</p>
+        <a  href  = "{{ brew.image_url}}" class="site" target="_blank"> Site</a>
+    </li>
+</ul> -->
